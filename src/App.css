@@ -1,0 +1,131 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+.navbar .nav-links li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .nav-links li a:hover {
+  color: #ff6b6b;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+}
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.header .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About */
+.about {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Projects */
+.projects {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.project-card .btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #2575fc;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Contact */
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.contact input, .contact textarea {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  padding: 0.7rem;
+  border: none;
+  background-color: #ff6b6b;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact button:hover {
+  background-color: #e55a5a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar .nav-links li {
+    margin-left: 1rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+}

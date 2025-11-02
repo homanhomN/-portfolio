@@ -3,10 +3,10 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(){
     const projectList = [
-        {title: "Todo App", description: "Web development project.", img: "/images/todo.png", link:"#"},
-        {title: "Calculator", description: "Web development project.", img: "/images/calculator.png", link:"#"},
-        {title: "Weather App", description: "Web development project.", img: "/images/weather.png", link:"#"},
-        {title: "Portfolio Project", description: "Web development project.", img: "/images/portfolio.png", link:"#"},
+        {title: "Portfolio", description: "Web development project.", link:"https://portfolio-ten-theta-31.vercel.app/"},
+        {title: "Busines", description: "Web development project.", link:"https://business-chi-cyan.vercel.app/"},
+        {title: "Blog website", description: "Web development project.", link:"https://blog-website-ochre-chi.vercel.app/"},
+        {title: "School website", description: "Web development project.", img: "/images/portfolio.png", link:"https://aziz-rho.vercel.app/"},
     ]
 
     return(

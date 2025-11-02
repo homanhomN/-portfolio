@@ -10,7 +10,7 @@ function Contact(){
                 <textarea placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
-            <p>Email: <a href="mailto:ahmad@gmail.com">azizahmad@gmail.com</a></p>
+            <p>Email: <a href="mailto:azizahmad@gmail.com">azizahmad@gmail.com</a></p>
         </section>
     )
 }
